@@ -1,0 +1,16 @@
+Dividimos 2 partes back y front 
+Backende sera con node express mongodb
+    empezamos en back con > npm init -y
+    cors (midleware)sirve para comunicarse con el front con back utilziando webpack para q 2 servidores puedan intercamibar datos
+    > npm i express mongoose cors dotenv
+    reiniciar el scriopt del servidor 
+    > npm i nodemon -D (este es similar a webpack)
+    estructura js y carpetas:
+        index.js arranca el *servidor* aqui se importa los modulos
+        app.js se define y obitene codigo solo de *servidor* o frmaewok 
+        databse.js solo tiene la coneccion.
+        cotroller para las funciones del servidor segun las urls 
+        models para modelar o definir los datos con un squema
+        routes seran las urls del servidor
+    modificar el pack.json para ejecutar nodemon con npm run dev 
+    
