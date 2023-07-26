@@ -7,10 +7,10 @@ export default function Aside() {
         {/* Main Sidebar Container */}
         <aside className="main-sidebar sidebar-dark-primary elevation-4">
         {/* Brand Logo */}
-        <div className="brand-link">
+        <a href='/dashboard' className="brand-link">
             <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" className="brand-image img-circle elevation-3" style={{opacity: '.8'}} />
             <span className="brand-text font-weight-light">CONSTITUYENTES</span>
-        </div>
+        </a>
         {/* Sidebar */}
         <div className="sidebar">
             {/* Sidebar user panel (optional) */}
@@ -19,7 +19,7 @@ export default function Aside() {
                 <img src="dist/img/user2-160x160.jpg" className="img-circle elevation-2" alt="User Image" />
             </div>
             <div className="info">
-                <Link href="#" className="d-block">Alexander Pierce</Link>
+                <Link to="/profile" className="d-block">Alexander Pierce</Link>
             </div>
             </div>
             {/* SidebarSearch Form */}
@@ -71,16 +71,16 @@ export default function Aside() {
                 <li className="nav-header">MENU OPCIONES</li>
                
                 <li className="nav-item">
-                <a href="pages/kanban.html" className="nav-link">
+                <Link to="/actualizarCte" className="nav-link">
                     <i className="nav-icon fas fa-columns" />
                     <p>Actualizar informacion</p>
-                </a>
+                </Link>
                 </li>
                 <li className="nav-item">
-                <a href="pages/kanban.html" className="nav-link">
+                <Link to="/historial" className="nav-link">
                     <i className="nav-icon fas fa-columns" />
                     <p>Historial</p>
-                </a>
+                </Link>
                 </li>
                 
                 <li className="nav-item">
@@ -93,22 +93,22 @@ export default function Aside() {
                 </a>
                 <ul className="nav nav-treeview">
                     <li className="nav-item">
-                    <a href="starter.html" className="nav-link">
+                    <Link to="/consultar" className="nav-link">
                         <i className="far fa-circle nav-icon" />
                         <p>Consultar constituyentes</p>
-                    </a>
+                    </Link>
                     </li>
                     <li className="nav-item">
-                    <a href="starter.html" className="nav-link">
+                    <Link to="/buscar" className="nav-link">
                         <i className="far fa-circle nav-icon" />
                         <p>Buscar constituyentes</p>
-                    </a>
+                    </Link>
                     </li>
                     <li className="nav-item">
-                    <a href="starter.html" className="nav-link">
+                    <Link to="/dashboard" className="nav-link">
                         <i className="far fa-circle nav-icon" />
                         <p>Reporte constituyentes</p>
-                    </a>
+                    </Link>
                     </li>
                 </ul>
                 </li>

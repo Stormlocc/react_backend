@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Content() {
+export default function Reporte() {
 	return (
 		<>
 			{/* Content Wrapper. Contains page content */}
