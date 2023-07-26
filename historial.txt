@@ -20,4 +20,6 @@ Frontend:
     >npm install boostrap
     Agregamos carpetas admin lte ddist y pulginh a front node_modules
 
+    Para mejorar las preticiones http instlar fetch
+    >npm install axios
     
