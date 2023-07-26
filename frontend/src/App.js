@@ -3,10 +3,10 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Portada from './componentes/Portada';
 import CreateUser from './componentes/CreateUser';
 import Footer from './componentes/Footer';
-import Login from './componentes/Login.js';
 import Header from './componentes/Header'
 import Content from './componentes/Content'
 import Aside from './componentes/Aside'
+import Profile from './componentes/Profile';
 
 import 'bootstrap/dist/css/adminlte.min.css'
 import 'bootstrap/plugins/fontawesome-free/css/all.min.css'
@@ -17,7 +17,7 @@ function App() {
       <Routes>
 
         <Route path='/'  element={<Portada/>}  />
-        <Route path='/crear' element={<CreateUser/> } />
+        <Route path='/profile' element={<Profile/> } />
         <Route path='/dashboard' element={<>
                                   <Header />
                                   <Content />

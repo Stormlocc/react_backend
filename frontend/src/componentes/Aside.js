@@ -7,10 +7,10 @@ export default function Aside() {
         {/* Main Sidebar Container */}
         <aside className="main-sidebar sidebar-dark-primary elevation-4">
         {/* Brand Logo */}
-        <Link to="/" className="brand-link">
+        <div className="brand-link">
             <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" className="brand-image img-circle elevation-3" style={{opacity: '.8'}} />
             <span className="brand-text font-weight-light">CONSTITUYENTES</span>
-        </Link>
+        </div>
         {/* Sidebar */}
         <div className="sidebar">
             {/* Sidebar user panel (optional) */}
@@ -19,7 +19,7 @@ export default function Aside() {
                 <img src="dist/img/user2-160x160.jpg" className="img-circle elevation-2" alt="User Image" />
             </div>
             <div className="info">
-                <a href="#" className="d-block">Alexander Pierce</a>
+                <Link href="#" className="d-block">Alexander Pierce</Link>
             </div>
             </div>
             {/* SidebarSearch Form */}

@@ -9,7 +9,6 @@ export default function Content() {
 				<div className="content-header">
 					<div className="container-fluid">
 								<h1 className="m-0">Informacion de constituyentes EPIIS</h1>
-
 					</div>{/* /.container-fluid */}
 				</div>
 				{/* /.content-header */}

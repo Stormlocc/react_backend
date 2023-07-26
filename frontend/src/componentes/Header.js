@@ -8,13 +8,13 @@ export default function Header() {
         {/* Left navbar links */}
         <ul className="navbar-nav">
             <li className="nav-item">
-            <a className="nav-link" data-widget="pushmenu" href="#" role="button"><i className="fas fa-bars" /></a>
+                <a className="nav-link" data-widget="pushmenu" href="#" role="button"><i className="fas fa-bars" /></a>
             </li>
             <li className="nav-item d-none d-sm-inline-block">
-            <a href="index.html" className="nav-link">Home</a>
+                <a href="/dashboard" className="nav-link">Principal</a>
             </li>
             <li className="nav-item d-none d-sm-inline-block">
-            <a href="#" className="nav-link">Contact</a>
+                <a href="#" className="nav-link">Contacto</a>
             </li>
         </ul>
         {/* Right navbar links */}
@@ -125,15 +125,18 @@ export default function Header() {
                 <a href="#" className="dropdown-item dropdown-footer">See All Notifications</a>
             </div>
             </li>
+
             <li className="nav-item">
             <a className="nav-link" data-widget="fullscreen" href="#" role="button">
                 <i className="fas fa-expand-arrows-alt" />
             </a>
             </li>
-            <li className="nav-item">
-            <a className="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
-                <i className="fas fa-th-large" />
-            </a>
+            <li className="nav-item nav-link">
+                <div>
+                <a className="">Cerrar Sesion</a>
+
+                </div>
+
             </li>
         </ul>
         </nav>
