@@ -13,4 +13,11 @@ Backende sera con node express mongodb
         models para modelar o definir los datos con un squema
         routes seran las urls del servidor
     modificar el pack.json para ejecutar nodemon con npm run dev 
+Frontend:
+    Neceistamos conectar con las rutas entonces instalamos
+    >npm install react-router-dom
+    Las rutas tienen que cargat boostrap
+    >npm install boostrap
+    Agregamos carpetas admin lte ddist y pulginh a front node_modules
+
     
